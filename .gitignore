@@ -1,0 +1,102 @@
+# Source code (available upon request)
+scripts/
+recipes/
+requirements.txt
+
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+.Python
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.atom/
+.vim/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# External data (not stored in Git)
+data/Mars/MCD/
+data/Mars/OpenMARS/
+data/**/*.nc
+data/**/*.dat
+data/**/*.hdf5
+data/**/*.h5
+
+# Generated output (experiment results)
+output/
+results/
+*.pkl
+*.pickle
+*.joblib
+
+# TensorFlow / Keras
+.keras/
+*.pb
+saved_model/
+*.h5
+checkpoint/
+
+# Model checkpoints and weights
+*.ckpt
+*.weights
+models/**/*
+!models/.gitkeep
+
+# Logs
+logs/
+*.log
+wandb/
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.bak
+.~*
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# setuptools
+*.egg-info/
+build/
+dist/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Black formatter
+.black/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

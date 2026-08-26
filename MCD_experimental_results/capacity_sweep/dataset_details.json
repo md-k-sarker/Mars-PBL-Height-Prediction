@@ -1,0 +1,397 @@
+{
+  "source": "MCD",
+  "data_fraction": 0.199987,
+  "raw_dimensions": {
+    "time": 192,
+    "alt": 26,
+    "lat": 13,
+    "lon": 13
+  },
+  "X_shape": [
+    6354,
+    4,
+    80
+  ],
+  "y_shape": [
+    6354,
+    1
+  ],
+  "duration_or_time_range": "Seasonal/diurnal coverage: Ls 0 to 345 deg, step ~15 deg, unique=24; local time 0 to 21 h, step ~3 h, unique=8. The run contains 188 unique target-time indices.",
+  "coordinate_ranges": {
+    "time": {
+      "size": 192,
+      "dtype": "int64",
+      "first": 0,
+      "last": 191,
+      "count_finite": 192,
+      "min": 0.0,
+      "max": 191.0,
+      "unique_count": 192,
+      "step_median": 1.0
+    },
+    "alt": {
+      "size": 26,
+      "dtype": "int64",
+      "first": 0,
+      "last": 25000,
+      "count_finite": 26,
+      "min": 0.0,
+      "max": 25000.0,
+      "unique_count": 26,
+      "step_median": 1000.0
+    },
+    "lat": {
+      "size": 13,
+      "dtype": "float64",
+      "first": -60.0,
+      "last": 60.0,
+      "count_finite": 13,
+      "min": -60.0,
+      "max": 60.0,
+      "unique_count": 13,
+      "step_median": 10.0
+    },
+    "lon": {
+      "size": 13,
+      "dtype": "float64",
+      "first": -60.0,
+      "last": 60.0,
+      "count_finite": 13,
+      "min": -60.0,
+      "max": 60.0,
+      "unique_count": 13,
+      "step_median": 10.0
+    },
+    "Ls": {
+      "size": 192,
+      "dtype": "float64",
+      "first": 0.0,
+      "last": 345.0,
+      "count_finite": 192,
+      "min": 0.0,
+      "max": 345.0,
+      "unique_count": 24,
+      "step_median": 15.0
+    },
+    "lt": {
+      "size": 192,
+      "dtype": "float64",
+      "first": 0.0,
+      "last": 21.0,
+      "count_finite": 192,
+      "min": 0.0,
+      "max": 21.0,
+      "unique_count": 8,
+      "step_median": 3.0
+    }
+  },
+  "split": {
+    "train": 3787,
+    "validation": 752,
+    "test": 1397,
+    "unused_or_embargoed": 418,
+    "unique_target_times": 188
+  },
+  "inputs_3d": [
+    "temp",
+    "u",
+    "v"
+  ],
+  "inputs_2d": [
+    "ps",
+    "tsurf"
+  ],
+  "targets": [
+    "pblh"
+  ],
+  "target_units": {
+    "pblh": "m"
+  },
+  "dataset_attributes": {
+    "source": "MCD"
+  },
+  "variables_available": {
+    "dens": {
+      "dims": [
+        "time",
+        "alt",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        26,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "kg/m^3",
+      "long_name": null,
+      "standard_name": null
+    },
+    "dustq": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "kg/kg",
+      "long_name": null,
+      "standard_name": null
+    },
+    "fluxsurf_dn_sw": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "W/m^2",
+      "long_name": null,
+      "standard_name": null
+    },
+    "fluxtop_lw": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "W/m^2",
+      "long_name": null,
+      "standard_name": null
+    },
+    "hfmax": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m/s",
+      "long_name": null,
+      "standard_name": null
+    },
+    "pblh": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m",
+      "long_name": null,
+      "standard_name": null
+    },
+    "pres": {
+      "dims": [
+        "time",
+        "alt",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        26,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "Pa",
+      "long_name": null,
+      "standard_name": null
+    },
+    "ps": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "Pa",
+      "long_name": null,
+      "standard_name": null
+    },
+    "reffdust": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m",
+      "long_name": null,
+      "standard_name": null
+    },
+    "tau": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "1",
+      "long_name": null,
+      "standard_name": null
+    },
+    "tau_pref_gcm": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "1",
+      "long_name": null,
+      "standard_name": null
+    },
+    "temp": {
+      "dims": [
+        "time",
+        "alt",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        26,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "long_name": null,
+      "standard_name": null
+    },
+    "tsurf": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "long_name": null,
+      "standard_name": null
+    },
+    "u": {
+      "dims": [
+        "time",
+        "alt",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        26,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m/s",
+      "long_name": null,
+      "standard_name": null
+    },
+    "v": {
+      "dims": [
+        "time",
+        "alt",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        26,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m/s",
+      "long_name": null,
+      "standard_name": null
+    },
+    "w": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m/s",
+      "long_name": null,
+      "standard_name": null
+    },
+    "wstar": {
+      "dims": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        192,
+        13,
+        13
+      ],
+      "dtype": "float64",
+      "units": "m/s",
+      "long_name": null,
+      "standard_name": null
+    }
+  }
+}
