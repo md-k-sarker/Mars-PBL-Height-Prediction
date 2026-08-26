@@ -5,13 +5,13 @@ This repository accompanies the paper:
 **"LSTM-Based Prediction of Mars Planetary Boundary Layer Height from the Mars Climate Database with Calibrated Uncertainty"**  
 James T. Bible, MD Kamruzzaman Sarker — Department of Computer Science, Bowie State University, Bowie, Maryland, USA
 
-To the best of our knowledge, this is the first published study to apply LSTM-based deep learning directly to Mars PBLH prediction; prior Mars PBL work relies on physics-based modeling and large-eddy simulation, while existing PBLH machine-learning studies are Earth-focused.
+
 
 The repository includes published experimental results across multiple random seeds, uncertainty estimates via conformal prediction, and a capacity-sweep analysis.
 
 ## Code availability
 
-The source code for this project is available upon reasonable request for research and reproducibility purposes. Please contact either author:
+The source code for this project is available upon request for research and reproducibility purposes. Please contact either author:
 
 - MD Kamruzzaman Sarker — msarker@bowiestate.edu
 - James T. Bible — duckman_079@yahoo.com
